@@ -27,7 +27,7 @@ Inovasi ini menjawab kebutuhan akan perangkat keras khusus untuk menangani perhi
 
 ### Tahun 2016 - 2010
 
-![image](https://github.com/user-attachments/assets/c3577419-5da0-4dea-b67b-f66f58d9abe8)
+![image](https://github.com/user-attachments/assets/eb0a2bc4-4620-4dc5-a81b-32b5bce157df)
 _Diagram NVIDIA CUDA_
 
 
@@ -37,7 +37,7 @@ Pada jangka tahun ini, peran GPU berkembang melampaui rendering grafis. Pada tah
 ### Tahun 2010-an
 
 ![image](https://github.com/user-attachments/assets/7a8c4485-1008-4829-92b4-60ada6384804)
-_Arsitektur NVIDIA Pascal VS NVIDIA Turing
+_Arsitektur NVIDIA Pascal VS NVIDIA Turing_
 
 
 Teknologi GPU terus berkembang dengan kemajuan arsitektur yang signifikan. **Arsitektur Pascal NVIDIA**, yang dirilis pada tahun 2016, meningkatkan performa GPU dengan perbaikan dalam efisiensi energi dan kekuatan pemrosesan, menjadikannya ideal untuk aplikasi pembelajaran mendalam. 0Arsitektur Pascal mendukung tugas AI dan pembelajaran mesin yang lebih maju, membawa kemajuan signifikan dalam pemrosesan bahasa alami dan pengenalan gambar. Dan pada tahun 2018, NVIDIA memperkenalkan **arsitektur Turing**, yang menghadirkan kemampuan ray tracing real-time ke GPU konsumen, meningkatkan realisme grafis dengan pencahayaan dan refleksi yang akurat.

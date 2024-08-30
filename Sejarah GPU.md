@@ -27,8 +27,7 @@ Inovasi ini menjawab kebutuhan akan perangkat keras khusus untuk menangani perhi
 
 ### Tahun 2016 - 2010
 
-
-![image](https://github.com/user-attachments/assets/7a8c4485-1008-4829-92b4-60ada6384804)
+![image](https://github.com/user-attachments/assets/c3577419-5da0-4dea-b67b-f66f58d9abe8)
 _Diagram NVIDIA CUDA_
 
 
@@ -37,8 +36,7 @@ Pada jangka tahun ini, peran GPU berkembang melampaui rendering grafis. Pada tah
 
 ### Tahun 2010-an
 
-
-![image](https://github.com/user-attachments/assets/8f15eead-b7bc-4249-a039-598ec51af826)
+![image](https://github.com/user-attachments/assets/7a8c4485-1008-4829-92b4-60ada6384804)
 _Arsitektur NVIDIA Pascal VS NVIDIA Turing
 
 

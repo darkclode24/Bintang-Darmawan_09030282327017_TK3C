@@ -45,7 +45,7 @@ Teknologi GPU terus berkembang dengan kemajuan arsitektur yang signifikan. **Ars
 
 ### 2020 - Seterusnya
 
-![image](https://github.com/user-attachments/assets/17a655ab-8401-40a6-a073-a1213c5ba0a2)
+![image](https://github.com/user-attachments/assets/369aaaec-7c6b-4f0a-ab2c-b1855d2ede0b)
+_Supercomputer / Komputer super_
 
-
-Saat ini, GPU menjadi elemen penting di berbagai sektor, mulai dari permainan dan realitas virtual hingga kecerdasan buatan dan komputasi kinerja tinggi. Kemampuan mereka untuk menangani tugas pemrosesan paralel yang besar menjadikannya krusial untuk melatih model pembelajaran mesin yang canggih, menjalankan simulasi kompleks, dan melakukan analisis data berskala besar. Integrasi teknologi AI dan pembelajaran mendalam telah memperluas pengaruh GPU lebih jauh, mendorong inovasi dalam kendaraan otonom, perawatan kesehatan, dan ilmu data. Seiring dengan kemajuan teknologi GPU, mereka menjanjikan aplikasi yang lebih inovatif dan transformasi masa depan komputasi.
+Saat ini, GPU menjadi elemen penting di berbagai sektor, mulai dari permainan dan realitas virtual hingga kecerdasan buatan dan komputasi kinerja tinggi. Kemampuan untuk menangani tugas pemrosesan paralel yang besar menjadikannya penting untuk melatih model pembelajaran mesin yang canggih, menjalankan simulasi rumit, dan melakukan analisis data berskala besar. Integrasi teknologi AI dan pembelajaran mendalam telah memperluas pengaruh GPU lebih jauh, mendorong inovasi dalam kendaraan otonom, perawatan kesehatan, dan ilmu data. Seiring dengan kemajuan teknologi GPU, mereka menjanjikan aplikasi yang lebih inovatif dan transformasi masa depan komputasi.

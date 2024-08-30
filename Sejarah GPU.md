@@ -28,7 +28,7 @@ Inovasi ini menjawab kebutuhan akan perangkat keras khusus untuk menangani perhi
 ### Tahun 2016 - 2010
 
 ![image](https://github.com/user-attachments/assets/eb0a2bc4-4620-4dc5-a81b-32b5bce157df)
-_Diagram NVIDIA CUDA_
+_NVIDIA CUDA_
 
 
 Pada jangka tahun ini, peran GPU berkembang melampaui rendering grafis. Pada tahun 2006, NVIDIA memperkenalkan **CUDA** (_Compute Unified Device Architecture_), sebuah platform dan API komputasi paralel yang memungkinkan pengembang menggunakan GPU untuk tugas komputasi umum. Langkah ini memungkinkan GPU melakukan perhitungan kompleks yang sebelumnya dilakukan oleh CPU, merevolusi bidang seperti penelitian ilmiah, pemodelan keuangan, dan analisis data berskala besar. CUDA memfasilitasi kemajuan signifikan dalam pembelajaran mesin dan pemrosesan data, menunjukkan fleksibilitas dan kekuatan GPU.
@@ -40,4 +40,12 @@ Pada jangka tahun ini, peran GPU berkembang melampaui rendering grafis. Pada tah
 _Arsitektur NVIDIA Pascal VS NVIDIA Turing_
 
 
-Teknologi GPU terus berkembang dengan kemajuan arsitektur yang signifikan. **Arsitektur Pascal NVIDIA**, yang dirilis pada tahun 2016, meningkatkan performa GPU dengan perbaikan dalam efisiensi energi dan kekuatan pemrosesan, menjadikannya ideal untuk aplikasi pembelajaran mendalam. 0Arsitektur Pascal mendukung tugas AI dan pembelajaran mesin yang lebih maju, membawa kemajuan signifikan dalam pemrosesan bahasa alami dan pengenalan gambar. Dan pada tahun 2018, NVIDIA memperkenalkan **arsitektur Turing**, yang menghadirkan kemampuan ray tracing real-time ke GPU konsumen, meningkatkan realisme grafis dengan pencahayaan dan refleksi yang akurat.
+Teknologi GPU terus berkembang dengan kemajuan arsitektur yang signifikan. **Arsitektur Pascal NVIDIA**, yang dirilis pada tahun 2016, meningkatkan performa GPU dengan perbaikan dalam efisiensi energi dan kekuatan pemrosesan, menjadikannya ideal untuk aplikasi pembelajaran mendalam. 0Arsitektur Pascal mendukung tugas AI dan pembelajaran mesin yang lebih maju, membawa kemajuan signifikan dalam pemrosesan bahasa alami dan pengenalan gambar. Dan pada tahun 2018, NVIDIA memperkenalkan **Arsitektur Turing**, yang menghadirkan kemampuan ray tracing real-time ke GPU konsumen, meningkatkan realisme grafis dengan pencahayaan dan refleksi yang akurat.
+
+
+### 2020 - Seterusnya
+
+![image](https://github.com/user-attachments/assets/17a655ab-8401-40a6-a073-a1213c5ba0a2)
+
+
+Saat ini, GPU menjadi elemen penting di berbagai sektor, mulai dari permainan dan realitas virtual hingga kecerdasan buatan dan komputasi kinerja tinggi. Kemampuan mereka untuk menangani tugas pemrosesan paralel yang besar menjadikannya krusial untuk melatih model pembelajaran mesin yang canggih, menjalankan simulasi kompleks, dan melakukan analisis data berskala besar. Integrasi teknologi AI dan pembelajaran mendalam telah memperluas pengaruh GPU lebih jauh, mendorong inovasi dalam kendaraan otonom, perawatan kesehatan, dan ilmu data. Seiring dengan kemajuan teknologi GPU, mereka menjanjikan aplikasi yang lebih inovatif dan transformasi masa depan komputasi.

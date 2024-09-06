@@ -3,7 +3,7 @@
 ## Kelas = TK 3C
 
 
-![IMG_20240906_120934](https://github.com/user-attachments/assets/5f9e1119-2da8-4b27-b082-013a311cbc5c)
+<img src="https://github.com/user-attachments/assets/5f9e1119-2da8-4b27-b082-013a311cbc5c" width="48" height="48">
 
 
 

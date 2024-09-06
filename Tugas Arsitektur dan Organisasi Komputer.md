@@ -2,4 +2,10 @@
 ## NIM   = 09030282327017
 ## Kelas = TK 3C
 
-![alt text](blob:https://web.whatsapp.com/8e7b32a2-d159-46f9-b6fb-d64113f7bc36)
+
+![IMG_20240906_120934](https://github.com/user-attachments/assets/5f9e1119-2da8-4b27-b082-013a311cbc5c)
+
+
+
+
+![IMG_20240906_120941 (1)](https://github.com/user-attachments/assets/131c7db4-516e-4e6c-b508-1c6afd0ddf07)

@@ -14,11 +14,24 @@ Setelah mencoba menggunakan berbagai fitur Ubuntu, saya mengamati beberapa perbe
 Beberapa diantaranya adalah :
 
 ## 1. Tipe Kernel :
+
 Linux (Ubuntu) menggunakan **kernel monolitik** (_Monolithic Kernel_), yang di mana sebagian besar layanan inti OS seperti **manajemen file, driver perangkat,** dan **jaringan** ditangani di **kernel space** (Area memori yang dikhususkan untuk kernel sistem operasi). Kernel ini modular, yang artinya modul kernel bisa ditambahkan/dicopot secara dinamis.
 
 ![image](https://github.com/user-attachments/assets/59a4c503-22a1-47b8-905f-353ca4beebf2)
 
 
-Windows Menggunakan **hybrid kernel**, yang menggabungkan elemen dari **monolithic** dan **microkernel**. Beberapa layanan berjalan di kernel mode, sementara yang lainnya diisolasi untuk efisiensi.
+Windows Menggunakan **hybrid kernel**, yang menggabungkan elemen dari **monolithic** dan **microkernel**. Beberapa layanan berjalan di **kernel mode**, sementara yang lainnya berjalan di bagian yang lebih aman dan terpisah dari kernel (**user mode**).
 
-![image](https://github.com/user-attachments/assets/89dc727e-e77e-4759-a0cc-41857c3bdd4b)
+![image](https://github.com/user-attachments/assets/c0bb0b75-8f77-4866-8c34-1e3b1857116a)
+_note : p adalah nama user_
+
+
+## 2. Manajemen Proses
+
+Linux (Ubuntu) dikelola oleh **systemd** atau sistem init lainnya dengan struktur proses berbentuk hierarki, di mana setiap proses memiliki "_parent_" dan diinisialisasi oleh proses init (**PID 1**).
+
+![image](https://github.com/user-attachments/assets/ef75b38d-9e4b-40ae-a047-fdc37959865b)
+
+Windows 10 Menggunakan **NT process manager** di mana kernel Windows mengelola penjadwalan proses. Proses seperti **svchost.exe** menjalankan banyak layanan.
+
+![image](https://github.com/user-attachments/assets/a147957b-4ebc-49e4-ba3b-eb4d5ee66d30)

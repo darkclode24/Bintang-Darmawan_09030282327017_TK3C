@@ -46,3 +46,26 @@ Linux (Ubuntu) Menggunakan **EXT4** sebagai sistem file utama dengan struktur di
 Windows 10 Menggunakan **NTFS** sebagai sistem file utama, dengan sistem direktori berbasis huruf drive (seperti C:\). NTFS mendukung enkripsi, izin akses, dan journaling.
 
 ![image](https://github.com/user-attachments/assets/47adf7f7-52b3-4469-93d2-8ed351c8a2bb)
+
+
+## 4. Manajemen Memori
+
+Linux (Ubuntu) Menggunakan manajemen memori virtual dengan sistem paging yang sangat dapat dikustomisasi. Linux juga menggunakan **slab allocation** untuk efisiensi penggunaan memori di kernel.
+
+![image](https://github.com/user-attachments/assets/a9ee98b1-17ab-46fe-a2a3-c6732e75b471)
+
+Windows 10 Juga menggunakan memori virtual, terintegrasi dengan file paging (_pagefile.sys_). Windows menggunakan **demand paging**, di mana halaman memori hanya dimuat ketika diperlukan.
+
+![image](https://github.com/user-attachments/assets/8c5a2832-372f-4f5c-aa81-be043fd4ecc9)
+
+
+## 5. Arsitektur Driver Perangkat
+
+Linux (Ubuntu) memperlakukan sebagian besar perangkat sebagai file, dan driver perangkat dimuat sebagai **modul kernel**. Modul-modul ini dapat ditambahkan atau dihapus secara dinamis menggunakan perintah **modprobe**.
+
+![image](https://github.com/user-attachments/assets/32793048-814e-4cb7-9ff9-05eac2263e3c)
+
+Windows 10 Menggunakan **Windows Driver Model (WDM)**, di mana driver berjalan di user mode atau kernel mode. Driver biasanya harus ditandatangani oleh Microsoft untuk kompatibilitas perangkat keras.
+
+![image](https://github.com/user-attachments/assets/27b55018-c49d-4400-ae5b-85f8668f7a04)
+

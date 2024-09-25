@@ -35,3 +35,14 @@ Linux (Ubuntu) dikelola oleh **systemd** atau sistem init lainnya dengan struktu
 Windows 10 Menggunakan **NT process manager** di mana kernel Windows mengelola penjadwalan proses. Proses seperti **svchost.exe** menjalankan banyak layanan.
 
 ![image](https://github.com/user-attachments/assets/a147957b-4ebc-49e4-ba3b-eb4d5ee66d30)
+
+
+## 3. Arsitektur Sistem File
+
+Linux (Ubuntu) Menggunakan **EXT4** sebagai sistem file utama dengan struktur direktori yang dimulai dari direktori root (_/_). Semua file sistem dimount ke dalam direktori di bawah /.
+
+![image](https://github.com/user-attachments/assets/eef66e91-b2d8-48d4-9a95-36335bdbf6e6)
+
+Windows 10 Menggunakan **NTFS** sebagai sistem file utama, dengan sistem direktori berbasis huruf drive (seperti C:\). NTFS mendukung enkripsi, izin akses, dan journaling.
+
+![image](https://github.com/user-attachments/assets/47adf7f7-52b3-4469-93d2-8ed351c8a2bb)

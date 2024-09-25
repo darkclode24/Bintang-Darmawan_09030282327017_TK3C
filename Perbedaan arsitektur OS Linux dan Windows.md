@@ -63,7 +63,7 @@ Windows 10 Juga menggunakan memori virtual, terintegrasi dengan file paging (_pa
 
 Linux (Ubuntu) memperlakukan sebagian besar perangkat sebagai file, dan driver perangkat dimuat sebagai **modul kernel**. Modul-modul ini dapat ditambahkan atau dihapus secara dinamis menggunakan perintah **modprobe**.
 
-![image](https://github.com/user-attachments/assets/32793048-814e-4cb7-9ff9-05eac2263e3c)
+<img width="960" alt="370599978-32793048-814e-4cb7-9ff9-05eac2263e3c" src="https://github.com/user-attachments/assets/e47ff9fd-e71b-49c8-8efd-1fafede9e1e5">
 
 Windows 10 Menggunakan **Windows Driver Model (WDM)**, di mana driver berjalan di user mode atau kernel mode. Driver biasanya harus ditandatangani oleh Microsoft untuk kompatibilitas perangkat keras.
 

@@ -72,13 +72,13 @@ Windows Menggunakan **Windows Driver Model (WDM)**, di mana driver berjalan di u
 
 ## 6. Instalasi Software dan Manajemen Paket
 
-Linux (Ubuntu) menggunakan manajer paket (misalnya, APT) untuk menginstal software dari repositori pusat. Pengguna dapat menginstal, memperbarui, atau menghapus software dengan satu perintah.
+Linux (Ubuntu) menggunakan **manajer paket (misalnya, APT)** untuk menginstal software dari repositori pusat. Pengguna dapat menginstal, memperbarui, atau menghapus software dengan satu perintah.
 
 ![image](https://github.com/user-attachments/assets/1a30f6a0-35f2-4ae7-90f3-bd16a59de7e5)
 
-Windows mengandalkan file executable (.exe, .msi) untuk instalasi software. Tidak ada manajer paket terpusat (meskipun winget dan Windows Store mulai diperkenalkan).
+Windows mengandalkan file **executable (.exe, .msi)** untuk instalasi software. Tidak ada manajer paket terpusat (meskipun winget dan Windows Store mulai diperkenalkan).
 
-![image](https://github.com/user-attachments/assets/c7777109-ace8-4345-a8b8-0193cb1f5bbd)
+![image](https://github.com/user-attachments/assets/f7548596-c858-4ee6-9c0d-eccabd0db9e0)
 
 
 ## 7. Izin dan Hak Akses Pengguna
@@ -93,4 +93,4 @@ _Dengan menggunakan **Sudo**_
 
 Windows menggunakan **User Account Control (_UAC_)** untuk mengelola hak istimewa administratif. Sebagian besar pengguna menjalankan sistem sebagai Administrator, yang membuat sistem lebih rentan terhadap perubahan yang tidak disengaja atau malware.
 
-![image](https://github.com/user-attachments/assets/ae3f398f-13e8-44e7-8631-1d5ad9adf610)
+![image](https://github.com/user-attachments/assets/6aa961fe-4bf2-44b7-aa18-e17a9652f0c2)

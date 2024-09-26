@@ -105,5 +105,5 @@ _Mengedit bootloader yang digunakan untuk memuat sistem operasi **(GRUB)**_
 
 Windows merupakan software **proprietary**, yang membatasi seberapa banyak sistem inti dapat disesuaikan. Modifikasi biasanya memerlukan alat pihak ketiga, dan pengguna tidak dapat mengakses atau memodifikasi kode sumber.
 
-![image](https://github.com/user-attachments/assets/0f7f47e3-c3cd-4ec6-abf3-f287efb631f8)
+![image](https://github.com/user-attachments/assets/6cc9853f-1d4e-486c-bc7e-c884e323025e)
 _Modifikasi langsung di bootloader **Windows** sangat terbatas._

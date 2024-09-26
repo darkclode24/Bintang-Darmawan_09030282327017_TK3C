@@ -94,3 +94,16 @@ _Dengan menggunakan **Sudo**_
 Windows menggunakan **User Account Control (_UAC_)** untuk mengelola hak istimewa administratif. Sebagian besar pengguna menjalankan sistem sebagai Administrator, yang membuat sistem lebih rentan terhadap perubahan yang tidak disengaja atau malware.
 
 ![image](https://github.com/user-attachments/assets/6aa961fe-4bf2-44b7-aa18-e17a9652f0c2)
+
+
+## 8. Kustomisasi dan Sifat Open Source
+
+Ubuntu karena bersifat **open-source**, Ubuntu sangat dapat disesuaikan, dari level kernel hingga lingkungan desktop. Pengguna dapat memodifikasi dan membangun ulang sistem operasi sesuai kebutuhan.
+
+![image](https://github.com/user-attachments/assets/53deea09-9e02-4535-a99c-48017375f574)
+_Mengedit bootloader yang digunakan untuk memuat sistem operasi **(GRUB)**_
+
+Windows merupakan software **proprietary**, yang membatasi seberapa banyak sistem inti dapat disesuaikan. Modifikasi biasanya memerlukan alat pihak ketiga, dan pengguna tidak dapat mengakses atau memodifikasi kode sumber.
+
+![image](https://github.com/user-attachments/assets/0f7f47e3-c3cd-4ec6-abf3-f287efb631f8)
+_Modifikasi langsung di bootloader **Windows** sangat terbatas._

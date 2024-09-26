@@ -32,7 +32,7 @@ Linux (Ubuntu) dikelola oleh **systemd** atau sistem init lainnya dengan struktu
 
 ![image](https://github.com/user-attachments/assets/ef75b38d-9e4b-40ae-a047-fdc37959865b)
 
-Windows 10 Menggunakan **NT process manager** di mana kernel Windows mengelola penjadwalan proses. Proses seperti **svchost.exe** menjalankan banyak layanan.
+Windows Menggunakan **NT process manager** di mana kernel Windows mengelola penjadwalan proses. Proses seperti **svchost.exe** menjalankan banyak layanan.
 
 ![image](https://github.com/user-attachments/assets/a147957b-4ebc-49e4-ba3b-eb4d5ee66d30)
 
@@ -43,7 +43,7 @@ Linux (Ubuntu) Menggunakan **EXT4** sebagai sistem file utama dengan struktur di
 
 ![image](https://github.com/user-attachments/assets/eef66e91-b2d8-48d4-9a95-36335bdbf6e6)
 
-Windows 10 Menggunakan **NTFS** sebagai sistem file utama, dengan sistem direktori berbasis huruf drive (seperti C:\). NTFS mendukung enkripsi, izin akses, dan journaling.
+Windows Menggunakan **NTFS** sebagai sistem file utama, dengan sistem direktori berbasis huruf drive (seperti C:\). NTFS mendukung enkripsi, izin akses, dan journaling.
 
 ![image](https://github.com/user-attachments/assets/47adf7f7-52b3-4469-93d2-8ed351c8a2bb)
 
@@ -54,7 +54,7 @@ Linux (Ubuntu) Menggunakan manajemen memori virtual dengan sistem paging yang sa
 
 ![image](https://github.com/user-attachments/assets/a9ee98b1-17ab-46fe-a2a3-c6732e75b471)
 
-Windows 10 Juga menggunakan memori virtual, terintegrasi dengan file paging (_pagefile.sys_). Windows menggunakan **demand paging**, di mana halaman memori hanya dimuat ketika diperlukan.
+Windows juga menggunakan memori virtual, terintegrasi dengan file paging (_pagefile.sys_). Windows menggunakan **demand paging**, di mana halaman memori hanya dimuat ketika diperlukan.
 
 ![image](https://github.com/user-attachments/assets/8c5a2832-372f-4f5c-aa81-be043fd4ecc9)
 
@@ -65,7 +65,32 @@ Linux (Ubuntu) memperlakukan sebagian besar perangkat sebagai file, dan driver p
 
 <img width="960" alt="370599978-32793048-814e-4cb7-9ff9-05eac2263e3c" src="https://github.com/user-attachments/assets/e47ff9fd-e71b-49c8-8efd-1fafede9e1e5">
 
-Windows 10 Menggunakan **Windows Driver Model (WDM)**, di mana driver berjalan di user mode atau kernel mode. Driver biasanya harus ditandatangani oleh Microsoft untuk kompatibilitas perangkat keras.
+Windows Menggunakan **Windows Driver Model (WDM)**, di mana driver berjalan di user mode atau kernel mode. Driver biasanya harus ditandatangani oleh Microsoft untuk kompatibilitas perangkat keras.
 
 ![image](https://github.com/user-attachments/assets/27b55018-c49d-4400-ae5b-85f8668f7a04)
 
+
+## 6. Instalasi Software dan Manajemen Paket
+
+Linux (Ubuntu) menggunakan manajer paket (misalnya, APT) untuk menginstal software dari repositori pusat. Pengguna dapat menginstal, memperbarui, atau menghapus software dengan satu perintah.
+
+![image](https://github.com/user-attachments/assets/1a30f6a0-35f2-4ae7-90f3-bd16a59de7e5)
+
+Windows mengandalkan file executable (.exe, .msi) untuk instalasi software. Tidak ada manajer paket terpusat (meskipun winget dan Windows Store mulai diperkenalkan).
+
+![image](https://github.com/user-attachments/assets/c7777109-ace8-4345-a8b8-0193cb1f5bbd)
+
+
+## 7. Izin dan Hak Akses Pengguna
+
+Ubuntu mengikuti model izin yang ketat, di mana tugas administratif memerlukan akses root melalui perintah **sudo**.
+
+![image](https://github.com/user-attachments/assets/8e676508-2739-4e81-b068-3a720bd97e88)
+_Tanpa menggunakan **Sudo**_
+
+![image](https://github.com/user-attachments/assets/f83dd38d-0c6c-433f-898f-f97b2f760abd)
+_Dengan menggunakan **Sudo**_
+
+Windows menggunakan **User Account Control (_UAC_)** untuk mengelola hak istimewa administratif. Sebagian besar pengguna menjalankan sistem sebagai Administrator, yang membuat sistem lebih rentan terhadap perubahan yang tidak disengaja atau malware.
+
+![image](https://github.com/user-attachments/assets/ae3f398f-13e8-44e7-8631-1d5ad9adf610)

@@ -57,10 +57,11 @@ Copy SSH Key kepada Slave1 dan Slave2
 
 <img width="358" alt="image" src="https://github.com/user-attachments/assets/6ab31746-fa66-4b7d-8aa2-f64996166bcb">
 
+Test Akses SSH dari Master ke Slave1
 
 <img width="368" alt="image" src="https://github.com/user-attachments/assets/4881a7e3-120f-48d9-8f2c-a74902043dc7">
 
-Test Akses SSH dari Master ke Slave1 dan Slave2 
+Test Akses SSH dari Master ke Slave2
 
 ## 5. Menyiapkan Direktori Berbagi / Shared Directory
 
@@ -68,7 +69,15 @@ Test Akses SSH dari Master ke Slave1 dan Slave2
 
 Membuat folder mpi_shared yang akan dipakai oleh semua VM
 
-## 6. Image Processing
+![image](https://github.com/user-attachments/assets/e1e8a200-bfdc-433b-b2ff-a6e13056b93c)
+
+![image](https://github.com/user-attachments/assets/310c3ef6-285c-4ef0-8e15-43ca22bb4695)
+
+![image](https://github.com/user-attachments/assets/331cc088-207d-4950-8cd7-1d80cf07bcc0)
+
+Tampilan folder pada masing - masing VM (bisa liat VM pada judul di atas kiri)
+
+## 6. Image Preparing
 
 Pada percobaan kali ini saya akan menggunakan gambar file untuk menunjukkan MPI vs Sequential
 
@@ -80,4 +89,34 @@ Disini saya menggunakan gambar 6000x4000
 
 Untuk memasukkan gambar dari Windows ke VM Ubuntu, kita menambahkan folder tempat gambar yang kita baru download ke dalam Shared Folders pada bagian setting VM
 
-![image](https://github.com/user-attachments/assets/f2458a6f-035c-403b-b9de-9c568734ce2d)
+<img width="449" alt="image" src="https://github.com/user-attachments/assets/9b8de0fa-d725-41fd-bd78-f93811b2327c">
+
+Mounting Shared Folder pada masing - masing VM
+
+## 7. Program
+
+Disini saya akan membuat program yang memproses gambar dengan metode MPI Parallel dan juga Sequential.
+
+<img width="284" alt="image" src="https://github.com/user-attachments/assets/71852578-8a98-4638-bf75-bc2e31828a17">
+
+![image](https://github.com/user-attachments/assets/85c2e0ee-fc71-45a3-9feb-b89b682120b2)
+
+Membuat direktori / folder tempat program.
+
+<img width="317" alt="image" src="https://github.com/user-attachments/assets/673aabe6-5d9c-4fd7-bd95-b91faf22e75a">
+
+
+![image](https://github.com/user-attachments/assets/d23152e6-3bdf-40b7-8757-2b3a66e31caa)
+
+![image](https://github.com/user-attachments/assets/0ad6211c-ed44-4277-8726-8a11117b574f)
+
+Membuat Kode MPI.
+
+<img width="614" alt="image" src="https://github.com/user-attachments/assets/abbe1c85-3f59-4e86-96f2-70fe394eade4">
+
+Compile dan menjalankan kode MPI.
+
+<img width="221" alt="image" src="https://github.com/user-attachments/assets/40252ff8-f1d6-41e3-a3f1-a663d435c7c8">
+
+Hasil output MPI memproses gambar 6000x4000 menjadi Grayscale beserta waktu yang digunakan.
+

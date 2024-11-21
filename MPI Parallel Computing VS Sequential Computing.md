@@ -3,7 +3,7 @@
 Disini saya akan mencoba membandingkan parallel computing menggunakan MPI dengan 1 master dan 2 slave, dengan sequential computing.
 
 
-# MPI Parallel Computing
+# MPI Parallel Computing VS Sequential Computing
 
 ## 1 . Membuat Master dan Slave VM Ubuntu pada VirtualBox
 
@@ -114,6 +114,8 @@ Membuat direktori / folder tempat program.
 
 Membuat Kode MPI.
 
+Kode membagi proses pengolahan gambar menjadi beberapa proses menggunakan MPI. Proses utama memuat gambar, membaginya menjadi bagian-bagian, dan mengirimkannya ke proses-proses lain untuk diubah menjadi skala abu-abu secara paralel.
+
 <img width="614" alt="image" src="https://github.com/user-attachments/assets/abbe1c85-3f59-4e86-96f2-70fe394eade4">
 
 Compile dan menjalankan kode MPI.
@@ -134,3 +136,78 @@ Saya akan membuat Kode Sequential pada direktori yang sama dengan MPI.
 ![image](https://github.com/user-attachments/assets/8762994b-0e37-4a4a-bed8-408afd2387d6)
 
 Membuat kode sequential.
+
+Kode memuat gambar, mengubahnya menjadi skala abu-abu secara berurutan, dan mencetak waktu prosesnya.
+
+<img width="633" alt="image" src="https://github.com/user-attachments/assets/0cb97259-51ca-4ad5-af59-339aa3fc2116">
+
+Compile dan menjalankan kode sequential.
+
+<img width="240" alt="image" src="https://github.com/user-attachments/assets/ab18fb2d-c5d2-49aa-a182-e5882d11466d">
+
+Hasil output sequential memproses gambar 6000x4000 menjadi Grayscale serta waktu yang digunakan.
+
+
+# Analisa
+
+Hasil perbandingan menunjukkan bahwa proses menggunakan MPI (64ms) justru lebih lambat dibandingkan proses sequential (15ms) untuk mengubah gambar 6000x4000 menjadi grayscale. Berikut adalah analisa :
+
+## Kenapa MPI Lebih Lambat? 
+
+### 1. Overhead Komunikasi di MPI : 
+Dalam pemrosesan paralel dengan MPI, data gambar harus dibagi dan dikirim dari master ke slave. Setelah itu, hasilnya harus dikumpulkan kembali di master. Proses komunikasi ini menambah overhead waktu yang signifikan, terutama untuk tugas sederhana seperti konversi grayscale.
+
+### 2. Tugas yang Kurang Kompleks :
+Konversi gambar menjadi grayscale adalah operasi yang cukup ringan secara komputasi. Waktu yang dihemat oleh pemrosesan paralel tidak cukup besar untuk mengimbangi overhead komunikasi MPI.
+
+### 3. Efisiensi MPI :
+Pemrograman MPI lebih efektif untuk masalah yang bersifat compute-intensive dengan data besar dan operasi yang kompleks. Untuk tugas yang terlalu sederhana, keunggulan paralelisme tidak dapat dirasakan.
+
+### 4. Resource Sharing :
+Jika jumlah core fisik lebih kecil daripada jumlah proses MPI, sistem mengalami bottleneck karena thread bersaing untuk resource.
+
+### 5. Latensi MPI :
+MPI menambahkan latensi saat memulai proses paralel, terutama jika hanya ada sedikit node yang digunakan.
+
+### 6. Overhead Sinkronisasi :
+Semua node slave harus menunggu hingga seluruh proses selesai sebelum master dapat menggabungkan hasil. Jika satu slave lambat, waktu total akan terpengaruh.
+
+### 7. Input/Output Bottleneck :
+Jika proses MPI mengakses disk untuk membaca/membagi/menggabungkan data, ini dapat menjadi bottleneck dibandingkan sequential yang membaca sekali.
+
+## Kenapa Sequential lebih cepat?
+
+### 1. Tanpa Komunikasi :
+Proses sequential langsung memproses data tanpa membagi, mengirim, atau menggabungkan hasil.
+
+### 2. Efisiensi Memori Lokal :
+Sequential memanfaatkan cache CPU lebih efektif dibandingkan MPI yang mungkin melibatkan akses ke memori antar node.
+
+### 3. Sederhana :
+Sequential menghindari overhead seperti koordinasi antar node, latensi jaringan, atau sinkronisasi.
+
+### 4. Minim Overhead :
+Tidak ada overhead komunikasi, sinkronisasi, atau pembagian data.
+
+### 5. Operasi Ringan :
+Untuk operasi sederhana seperti konversi grayscale, sequential dapat menyelesaikan tugas dengan cepat karena komputasi berjalan langsung di satu thread.
+
+# Kesimpulan
+
+### MPI:
+Cocok untuk tugas compute-intensive (simulasi, pemrosesan data besar, deep learning, dll.) yang membutuhkan waktu pemrosesan signifikan.
+Tidak efektif untuk tugas ringan dengan overhead komunikasi lebih besar dibandingkan waktu komputasi.
+
+### Sequential:
+Optimal untuk tugas kecil, sederhana, atau yang tidak melibatkan banyak kalkulasi.
+
+### Rekomendasi:
+Gunakan MPI jika dataset sangat besar atau operasi kompleks.
+Untuk dataset kecil dan operasi ringan, proses sequential lebih hemat waktu dan resource.
+
+
+### Saran untuk MPI pada kasus ini :
+
+Pastikan pembagian data lebih besar per slave untuk mengurangi overhead komunikasi.
+Gunakan lebih banyak core fisik untuk menghindari resource sharing.
+Hindari menggunakan MPI untuk tugas ringan, atau kombinasikan dengan teknik paralelisme lain (seperti multithreading lokal).

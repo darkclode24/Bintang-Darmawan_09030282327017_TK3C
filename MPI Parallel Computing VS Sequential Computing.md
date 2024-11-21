@@ -95,6 +95,8 @@ Mounting Shared Folder pada masing - masing VM
 
 ## 7. Program
 
+### Kode MPI
+
 Disini saya akan membuat program yang memproses gambar dengan metode MPI Parallel dan juga Sequential.
 
 <img width="284" alt="image" src="https://github.com/user-attachments/assets/71852578-8a98-4638-bf75-bc2e31828a17">
@@ -120,3 +122,15 @@ Compile dan menjalankan kode MPI.
 
 Hasil output MPI memproses gambar 6000x4000 menjadi Grayscale beserta waktu yang digunakan.
 
+
+### Kode Sequential
+
+Saya akan membuat Kode Sequential pada direktori yang sama dengan MPI.
+
+<img width="344" alt="image" src="https://github.com/user-attachments/assets/bcbb179c-c9c9-414e-85fc-4849cda1db27">
+
+![image](https://github.com/user-attachments/assets/46c2705b-ade4-4305-b564-a18e0380048b)
+
+![image](https://github.com/user-attachments/assets/8762994b-0e37-4a4a-bed8-408afd2387d6)
+
+Membuat kode sequential.

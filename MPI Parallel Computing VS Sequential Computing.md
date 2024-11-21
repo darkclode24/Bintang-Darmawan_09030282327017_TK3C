@@ -57,6 +57,7 @@ Copy SSH Key kepada Slave1 dan Slave2
 
 <img width="358" alt="image" src="https://github.com/user-attachments/assets/6ab31746-fa66-4b7d-8aa2-f64996166bcb">
 
+
 <img width="368" alt="image" src="https://github.com/user-attachments/assets/4881a7e3-120f-48d9-8f2c-a74902043dc7">
 
 Test Akses SSH dari Master ke Slave1 dan Slave2 

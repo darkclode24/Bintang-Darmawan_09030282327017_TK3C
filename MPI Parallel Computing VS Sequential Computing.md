@@ -95,16 +95,16 @@ Mounting Shared Folder pada masing - masing VM
 
 ## 7. Program
 
-### Membuat file hosts
+### File hosts
 
 
 <img width="275" alt="image" src="https://github.com/user-attachments/assets/3d21be06-b9da-462a-b577-7968a4efde2a">
 
-membuat file hosts
+Membuat file hosts
 
 ![image](https://github.com/user-attachments/assets/95eac58a-59c3-4030-9a4d-c8f879bb60d3)
 
-isi file hosts
+Isi file hosts
 
 File host digunakan oleh MPI untuk menentukan daftar mesin (host) tempat proses MPI harus berjalan. Ini penting dalam skenario komputasi terdistribusi di mana program MPI Anda harus berjalan di beberapa mesin (VM atau server fisik).
 

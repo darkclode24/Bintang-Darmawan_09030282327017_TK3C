@@ -1,4 +1,4 @@
-img[alt=drawing] { width: 800px; }
+
 
 
 ## Laporan Praktikum Jaringan Komputer | 22 Januari 2025
@@ -6,7 +6,7 @@ img[alt=drawing] { width: 800px; }
 
 
 **1. Potong lapisan luar kabel UTP untuk memperlihatkan kabel - kabel didalam**
-![image](https://github.com/user-attachments/assets/3b7cc954-0e85-4a06-afc6-652381382f8c)
+<img src="https://github.com/user-attachments/assets/3b7cc954-0e85-4a06-afc6-652381382f8c" alt="image" width="800" height="800">
 _Pemotongan lapisan luar kabel UTP_
 
 ![image](https://github.com/user-attachments/assets/60e53746-aab5-43fc-8f54-eb60b4cceb35)

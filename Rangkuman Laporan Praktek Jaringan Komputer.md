@@ -1,3 +1,6 @@
+img[alt=drawing] { width: 800px; }
+
+
 ## Laporan Praktikum Jaringan Komputer | 22 Januari 2025
 ### Nama : Bintang Darmawan | NIM : 09030282327017 | Kelas : TK 4C
 

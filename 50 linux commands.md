@@ -17,7 +17,7 @@
 ![image](https://github.com/user-attachments/assets/279700f7-56fd-439b-a6e5-3d59d5cef531)
 
 8. cp  : untuk menyalin sebuah file
-9. mv  : untuk memindahkan sebuah file ke tempat lain
+9. mv  : untuk memindahkan / mengganti nama sebuah file 
 10. rm : untuk menghapus sebuah file
 
 ![image](https://github.com/user-attachments/assets/1d9992ab-8321-4a7f-853e-9feee32568dd)
@@ -26,3 +26,24 @@
 12. head  : untuk menampilkan beberapa baris pertama isi file
 13. tail  : untuk menampilkan beberapa baris terakhir isi file
 
+![image](https://github.com/user-attachments/assets/1269e57d-5900-42af-ba6a-b9da2d407928)
+
+14. grep : mencari sebuah kata kunci pada suatu file
+15. find : mencari sebuah file dari nama
+16. tar  : membuat arsip terkompresi (compressed archive) dari sebuah folder
+
+![image](https://github.com/user-attachments/assets/420ea5bd-5c8c-46d2-92fa-c2c8b8d8cddd)
+
+17. gzip   : mengompres sebuah file
+18. gunzip : dekompres sebuah file
+19. zip    : membuat arsip zip
+
+![image](https://github.com/user-attachments/assets/93221516-7a1f-42a6-94d6-b80861ef04ee)
+
+20. cat | less : untuk melihat dan hanya memuat isi file per halaman
+
+![image](https://github.com/user-attachments/assets/5333687d-7948-4649-b21e-062154868b17)
+
+21. unzip    : mengekstrak isi file .zip
+22. chmod    : memberi / mengubah perizinan kepada suatu file
+23. ./[file] : menjalankan file

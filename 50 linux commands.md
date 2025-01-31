@@ -87,3 +87,20 @@
 
 41. ln -s   : membuat symbolic link kepada suatu file / direktori (shortcut)
 42. history : memperlihatkan riwayat command terminal
+43. date    : memperlihatkan waktu dan tanggal sekarang
+
+![image](https://github.com/user-attachments/assets/c744d77b-eb6a-47f7-bedf-98b56c426882)
+
+44. cal      : menampilkan kalender bulan ini
+45. ping     : memeriksa konektivitas jaringan
+46. ifconfig : menampilkan informasi antarmuka jaringan
+
+![image](https://github.com/user-attachments/assets/93fc3fec-befe-42b9-b5a0-d17a7f26c930)
+
+47. netstat : menampilkan koneksi jaringan
+48. wget    : mendownload file dari internet
+49. echo    : menampilkan pesan ke terminal
+
+![image](https://github.com/user-attachments/assets/3efd87ad-2711-4c01-8a63-0e594cf77aa1)
+
+50. clear : membersihkan layar terminal

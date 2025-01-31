@@ -67,6 +67,12 @@
 29. free  : memperlihatkan pengunaan memori
 30. uname : memperlihatkan informasi sistem
 31. whoami: memperlihatkan akun user mana yang digunakan
-32. w     : memperlihatkan siapa yang masuk (logged in)
+32. w     : memperlihatkan akun apa saja yang aktif (logged in) dan informasi secara rinci
 
+![image](https://github.com/user-attachments/assets/913e8797-3f06-4e76-b8ea-7b67d26375a1)
 
+33. who    : memperlihatkan akun apa saja yang aktif (logged in) dengan simple
+34. passwd : mengganti password user
+35. su     : mengganti akun ke akun lain
+36. sudo   : menjalankan perintah dengan previlege superuser (administrator)
+37. 

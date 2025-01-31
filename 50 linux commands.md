@@ -47,3 +47,26 @@
 21. unzip    : mengekstrak isi file .zip
 22. chmod    : memberi / mengubah perizinan kepada suatu file
 23. ./[file] : menjalankan file
+
+![image](https://github.com/user-attachments/assets/6c05d692-49e1-4af5-b867-cc42dc09f4c6)
+
+24. ps aux : menampilkan seluruh proses berjalan
+
+![image](https://github.com/user-attachments/assets/bcaa14a6-764a-4048-beb4-992feac4fcfa)
+
+25. kill : menghentikan sebuah proses
+
+![image](https://github.com/user-attachments/assets/bf3bfd1e-ba8a-44d7-be6a-0ca6a50f04f3)
+
+26. top : memonitor resource / sumber daya sistem
+
+![image](https://github.com/user-attachments/assets/845c8327-05a1-4ac9-895f-af884de1e415)
+
+27. df    : memperlihatkan penggunaan penyimpanan
+28. du    : memperlihatkan penggunaan penyimpanan sebuah direktori
+29. free  : memperlihatkan pengunaan memori
+30. uname : memperlihatkan informasi sistem
+31. whoami: memperlihatkan akun user mana yang digunakan
+32. w     : memperlihatkan siapa yang masuk (logged in)
+
+

@@ -75,4 +75,15 @@
 34. passwd : mengganti password user
 35. su     : mengganti akun ke akun lain
 36. sudo   : menjalankan perintah dengan previlege superuser (administrator)
-37. 
+
+![image](https://github.com/user-attachments/assets/0541a360-1945-4fcb-9ac9-125ea419c3f0)
+
+37. shutdown : mematikan sistem
+38. reboot   : mengulang sistem
+39. man      : memperlihatkan manual untuk sebuah perintah
+40. alias    : membuat sebuah shortcut untuk suatu perintah
+
+ ![image](https://github.com/user-attachments/assets/48ce56d6-e28a-4503-927f-59a1142fafd5)
+
+41. ln -s   : membuat symbolic link kepada suatu file / direktori (shortcut)
+42. history : memperlihatkan riwayat command terminal

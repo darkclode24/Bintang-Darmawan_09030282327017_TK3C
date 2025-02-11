@@ -26,3 +26,13 @@ Default Gateway masing - masing laptop adalah IP address laptop lainnya (ex. Com
 ![image](https://github.com/user-attachments/assets/9ee0640e-3c85-4002-a03d-b3fc65de5566)
 
 Pada Laptop yang ingin membagi folder, berikan izin "Read/Write" pada pengguna "Everyone"
+
+### 5. Buka Shared Folder pada Laptop 2 
+
+![image](https://github.com/user-attachments/assets/413cbaf9-04a2-4c6a-8762-2d1bf267d5a1)
+
+Ketik "\\[ip address laptop 1] / (192.168.1.1)" pada search bar file explorer, dan navigasi ke dalam folder yang dibagikan. Pilih file yang diinginkan dan download / copy ke dalam folder sendiri.
+
+![image](https://github.com/user-attachments/assets/3c788246-3d77-4d24-94d7-74ea64469bb5)
+
+File yang dibagikan

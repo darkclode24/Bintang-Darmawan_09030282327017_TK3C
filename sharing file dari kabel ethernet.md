@@ -14,3 +14,15 @@ IP address kedua harus berasal dari subnet yang sama (ex. 192.168.1.x), yang mem
 
 Default Gateway masing - masing laptop adalah IP address laptop lainnya (ex. Computer 1, Default Gateway = IP address Computer 2)
 
+### 3. Mengaktifkan Network Sharing pada kedua laptop
+
+![image](https://github.com/user-attachments/assets/1b1324d8-75d6-47cf-b6c8-b9f41c351398)
+
+![image](https://github.com/user-attachments/assets/8aef7504-71fd-4b87-ad03-4a85a188eb32)
+
+
+### 4. Share Folder yang diinginkan
+
+![image](https://github.com/user-attachments/assets/9ee0640e-3c85-4002-a03d-b3fc65de5566)
+
+Pada Laptop yang ingin membagi folder, berikan izin "Read/Write" pada pengguna "Everyone"

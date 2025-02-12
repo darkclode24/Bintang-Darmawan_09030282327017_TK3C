@@ -13,11 +13,11 @@ data. Kecepatan (rate) transfer data efektif dikenal sebagai throughput, yang di
 
 **Throughput (Byte) = bytes / timespan**
 
-a. 72723753 / 650.711 = **111760.448 Bps**
+a. 72723753 / 650.711 = **111760.448 bps**
 
 **Throughput (Bit) = Throughput (Byte) * 8**
 
-a. 111760.448 * 8 = **894083.584 bps**
+a. 111760.448 * 8 = **894083.584 Bps**
 
 **Kbps**
 

@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/a1ec0109-022c-409d-8931-d2ca74ccf69e)### Bintang Darmawan | 09030282327017 | Jaringan Komputer | TK - 4C
+### Bintang Darmawan | 09030282327017 | Jaringan Komputer | TK - 4C
 
 Setelah menonton YouTube selama 10 menit, saya mendapatkan statistik dibawah :
 

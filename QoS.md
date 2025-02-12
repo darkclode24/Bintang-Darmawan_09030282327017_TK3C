@@ -107,3 +107,11 @@ Membuat column `delay1`, `delay2`dan `jitter` yang dimana :
 Total jitter adalah `SUM` dari Column `jitter`, yaitu **650,073 s**
 
 Rata - Rata Delay adalah `Total delay / total packet diterima`, yaitu **8,837 ms**
+
+Setelah pengukuran, Throughput, Packet Loss, Delay, dan Jitter yang didapatkan dapat kategorikan sesuai nilainya
+
+![image](https://github.com/user-attachments/assets/175e195a-b694-43cd-9cde-67fa0e74f4c6)
+
+Setelah mendapatkan hasil perhitungan Throughput, Packet Loss, Delay, dan Jitter. Selanjutnya kita dapat mengisi tabel indeks yang didapatkan dari pengukuran Quality of Service (QoS)
+
+![image](https://github.com/user-attachments/assets/67b9bb68-9aa6-4d4d-9c2f-b7c4d0797e95)

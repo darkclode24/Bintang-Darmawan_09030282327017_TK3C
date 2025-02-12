@@ -1,4 +1,4 @@
-### Bintang Darmawan | 09030282327017 | Jaringan Komputer | TK - 4C
+![image](https://github.com/user-attachments/assets/a1ec0109-022c-409d-8931-d2ca74ccf69e)### Bintang Darmawan | 09030282327017 | Jaringan Komputer | TK - 4C
 
 Setelah menonton YouTube selama 10 menit, saya mendapatkan statistik dibawah :
 
@@ -81,7 +81,8 @@ Membuat Column `delay` dengan rumus `time2 - time1`
 ![image](https://github.com/user-attachments/assets/1e9e1844-0219-4a7b-ba68-9d9a2f05cadd)
 
 Total delay adalah `SUM` dari Column `delay`, yaitu **649,995513 s / 650 s**
-Rata - Rata Delay adalah `Total delay / total packet diterima`, yaitu **8,83 ms**
+
+Rata - Rata Delay adalah `Total delay / total packet diterima`, yaitu **8,836 ms**
 
 ### 4. Jitter
 
@@ -89,8 +90,20 @@ Jitter adalah ukuran variasi waktu tunggu antara paket data. Jitter tinggi dapat
 menyebabkan aliran data tidak teratur, yang dapat mengganggu kualitas suara dan video 
 selama komunikasi real-time. 
 
-Membuat column `delay1` dan `delay2`, yang dimana :
+![image](https://github.com/user-attachments/assets/5bcb71bb-5302-4fc8-b3c2-4107ce5d8436)
+
+Membuat column `delay1`, `delay2`dan `jitter` yang dimana :
 
 `delay1`: baris pertama - baris selanjutnya pada Column `delay` (ex. G2-G3, G3-G4, G4-G5, dst..)
 
-`delay2`: nilai baris kedua dst. pada `delay1`
+`delay2`: nilai baris kedua dst. pada `delay`
+
+`jitter`: nilai `delay2 - delay1`
+
+
+![image](https://github.com/user-attachments/assets/955e9652-778c-42f5-ae39-a315944825dc)
+
+
+Total jitter adalah `SUM` dari Column `jitter`, yaitu **650,073 s**
+
+Rata - Rata Delay adalah `Total delay / total packet diterima`, yaitu **8,837 ms**

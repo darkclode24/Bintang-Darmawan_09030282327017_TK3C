@@ -108,7 +108,7 @@ Cadangkan file running configuration ke NVRAM untuk memastikan bahwa perubahan y
 
 ### Memeriksa Kebenaran Hasil 
 
-Untuk memeriksa kebenaran dari tugas yang telah kita buat, gunakan `check results` pada tab `PT Activity`
+Untuk memeriksa kebenaran dari tugas yang telah kita buat, gunakan `check results` pada window `PT Activity`
 
 ![image](https://github.com/user-attachments/assets/a5327a8d-46e9-4630-91fd-be069d99e349)
 

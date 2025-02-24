@@ -72,3 +72,46 @@ Dapat dilihat, bahwa password yang digunakan untuk mengakses mode privileged sek
 
 Jika `enable password` dan `enable secret` aktif, maka sistem akan menggunakan password `enable secret` karena lebih aman.
 
+ ### 9. Mengenkripsi password enable dan console.
+
+Password `enable` dan `console` belum terenkripsi, jadi akan kita enkripsi agar lebih aman.
+
+![image](https://github.com/user-attachments/assets/2c17347d-8999-4e90-ac9e-2515d66871ff)
+
+ 1. Masuk mode privileged.
+ 2. Masuk mode konfigurasi global.
+ 3. Menghidupkan enkripsi menggunakan `service password-encryption`
+
+![image](https://github.com/user-attachments/assets/110d6d8f-a598-4a0a-9231-051e4b7f8cc8) ![image](https://github.com/user-attachments/assets/1cc59215-bbb2-4176-9a9c-ea3eb15eb6a9)
+
+Dapat dilihat, password `enable` dan `console` telah terenkripsi.
+
+### 10. Konfigurasi Banner MOTD
+
+![image](https://github.com/user-attachments/assets/aa9fecca-ec90-4c69-adec-caf809e9100a)
+
+1. Masuk mode konfigurasi global.
+2. Mengaktifkan banner MOTD dengan `banner motd "[isi pesan]"`
+
+![image](https://github.com/user-attachments/assets/8700501d-bba3-44c0-b463-906c1dda0615)
+
+Dapat dilihat ketika user ingin login, maka pesan akan ditampilkan.
+
+### 11. Simpan dan Verifikasi file konfigurasi ke NVRAM
+
+Cadangkan file running configuration ke NVRAM untuk memastikan bahwa perubahan yang telah dibuat tidak hilang jika sistem di-reboot atau kehilangan daya.
+
+![image](https://github.com/user-attachments/assets/8d0220e3-0cd3-40e4-91b3-ac64aaae2cee)
+
+
+### Lakukan hal yang sama pada Switch SW2
+
+### Memeriksa Kebenaran Hasil 
+
+Untuk memeriksa kebenaran dari tugas yang telah kita buat, gunakan `check results` pada tab `PT Activity`
+
+![image](https://github.com/user-attachments/assets/a5327a8d-46e9-4630-91fd-be069d99e349)
+
+Pada tab `Assessment Items`, jika semua Assessment Items telah dicentang maka kita telah berhasil melakukan tugas dengan benar.
+
+![image](https://github.com/user-attachments/assets/bd84d845-984f-4e66-83aa-9288b2709be6)

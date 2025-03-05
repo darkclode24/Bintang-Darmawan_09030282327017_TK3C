@@ -8,7 +8,7 @@ Sebelum installasi, ada baiknya menggunakan `sudo apt update` untuk memperbarui 
 
 a. Untuk Ubuntu Desktop, kita menginstall openssh-client
 
-![image](https://github.com/user-attachments/assets/e37501f3-b42b-4032-9b2f-6f71c4169af3)
+<img src="https://github.com/user-attachments/assets/e37501f3-b42b-4032-9b2f-6f71c4169af3" width="1000" height="1000">
 
 b. Untuk Ubuntu Server, kita menginstall openssh-server
 

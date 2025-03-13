@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/1709bbb1-0cb6-4acb-a492-85f1200a4ce5)![image](https://github.com/user-attachments/assets/b4325e6d-da5f-423e-a4f4-7fe15b00b1ab)
+
 ### Bintang Darmawan | 0903028327017 | Operating System
 
 ## SHELL
@@ -317,7 +319,7 @@ c. Ulangi instruksi yang terakhir. Gunakan juga ^P dan ^N untuk bernavigasi pada
 
 ![image](https://github.com/user-attachments/assets/37f57677-b482-42a3-841f-c843f0f0dc7e)
 
-d. Ulangi instruksi pada history bufer nomor 150
+d. Ulangi instruksi pada history bufer nomor 536
 
 ![image](https://github.com/user-attachments/assets/488ad01b-d7ba-4820-8c03-cd4c312ae4b5)
 

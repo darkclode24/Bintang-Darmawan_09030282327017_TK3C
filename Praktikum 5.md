@@ -278,3 +278,50 @@ who`
 #! /bin/bash
 echo “Program p3”
 ps x`
+
+Jalankan script tersebut sebagai berikut :
+
+![image](https://github.com/user-attachments/assets/158f4755-d289-429a-8284-985f5eca62d0)
+
+5. Jobs
+
+Buat shell-script yang melakukan loop dengan nama pwaktu.sh, setiap 10 detik, kemudian menyimpan tanggal dan jam pada file hasil.
+
+![image](https://github.com/user-attachments/assets/860230ad-0819-47d0-85c6-9c2a5a9124f4)
+
+Jalankan sebagai background; kemudian jalankan satu program (utilitas find) di background
+sebagai berikut :
+
+![image](https://github.com/user-attachments/assets/1f30663c-1a2c-4efa-90ff-f8a2f7171ac9)
+
+Jadikan program ke 1 sebagai foreground, tekan ^Z dan kembalikan program tersebut ke
+background:
+
+![image](https://github.com/user-attachments/assets/600f87cb-e615-4f9a-8004-c29b42c687b0)
+
+Stop program background dengan utilitas kil
+
+![image](https://github.com/user-attachments/assets/14024b6c-4fe5-4d72-a072-3788e3bf54ce)
+
+6. History
+
+a. Ganti nilai HISTSIZE dari 1000 menjadi 20
+
+![image](https://github.com/user-attachments/assets/70504152-2c8d-4ed4-8df2-418d5e49575c)
+
+b. Gunakan fasilitas history dengan mengedit instruksi baris ke 5 dari instruksi yang terakhir dilakukan
+
+![image](https://github.com/user-attachments/assets/02d82bc3-ca77-401d-b1a1-e4ae78579f53)
+
+c. Ulangi instruksi yang terakhir. Gunakan juga ^P dan ^N untuk bernavigasi pada history bufer
+
+![image](https://github.com/user-attachments/assets/37f57677-b482-42a3-841f-c843f0f0dc7e)
+
+d. Ulangi instruksi pada history bufer nomor 150
+
+![image](https://github.com/user-attachments/assets/488ad01b-d7ba-4820-8c03-cd4c312ae4b5)
+
+e. Ulangi instruksi dengan prefix “ls”
+
+![image](https://github.com/user-attachments/assets/0ffd2fb6-a000-4ba0-ad70-0b0cc1a951fb)
+

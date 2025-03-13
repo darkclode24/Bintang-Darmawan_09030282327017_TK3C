@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/1709bbb1-0cb6-4acb-a492-85f1200a4ce5)![image](https://github.com/user-attachments/assets/b4325e6d-da5f-423e-a4f4-7fe15b00b1ab)### Bintang Darmawan | 0903028327017 | Operating System
+### Bintang Darmawan | 0903028327017 | Operating System
 
 ## SHELL
 

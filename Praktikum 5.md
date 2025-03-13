@@ -49,7 +49,7 @@ selesai, bilaeksekusi program tersebut berakhir.
 
 # Percobaan
 
-a. Profile
+## a. Profile
 
 File .bash_profile dijalankan pada home direktori pemakai yang login.
 
@@ -60,7 +60,7 @@ jobs, artinya membersihkan semuanya, misalnya menghapus temporary file atau job 
 
 ![image](https://github.com/user-attachments/assets/d0a9adbd-6fb7-4951-b5c9-4d31616335fe)
 
-b. History
+## b. History
 
 Melihat batasan maksimum instruksi yang dapat disimpan
 
@@ -80,7 +80,7 @@ depan instruksi yang diberikan
 
 ![image](https://github.com/user-attachments/assets/d55ad983-5400-4bab-84fa-1e8a3fb74c04)
 
-c. Create and Run Bash-script
+## c. Create and Run Bash-script
 
 Membuat file `p1.sh` dengan isi dibawah
 
@@ -117,7 +117,7 @@ proses background
 
 ![image](https://github.com/user-attachments/assets/686aedaf-1144-437f-8b96-14a2f8e40a80)
 
-d. Job Control
+## d. Job Control
 
 Menampilkan proses foreground
 

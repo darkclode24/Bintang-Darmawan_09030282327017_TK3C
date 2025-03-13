@@ -36,3 +36,21 @@ instruksi tersebut akan dicari pada daftar tersebut.
 History diadaptasi dari C-Shell, yaitu catatan dari semua instruksi yang sejauh ini telah
 dilakukan. Catatan ini dapat dilihat sebagai history, kemudian dapat dipilih kembali, diedit dan
 dieksekusi.
+
+# Bash Script
+
+Bash-script adalah file yang berisi koleksi program yang dapat dieksekusi. Untuk eksekusi bash
+script gunakan .
+
+# JOB CONTROL
+
+Job adalah sebuah eksekusi program yang diberikan kepada kernel. Sebuah Job dianggap
+selesai, bilaeksekusi program tersebut berakhir.
+
+# Percobaan
+
+a. Profile
+
+File .bash_profile dijalankan pada home direktori pemakai yang login.
+
+![image](https://github.com/user-attachments/assets/b5d54fbf-b448-4157-bfee-4efa9b8223ba)

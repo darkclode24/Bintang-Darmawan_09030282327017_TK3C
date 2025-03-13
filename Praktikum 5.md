@@ -1,4 +1,4 @@
-### Bintang Darmawan | 0903028327017 | Operating System
+![image](https://github.com/user-attachments/assets/1709bbb1-0cb6-4acb-a492-85f1200a4ce5)![image](https://github.com/user-attachments/assets/b4325e6d-da5f-423e-a4f4-7fe15b00b1ab)### Bintang Darmawan | 0903028327017 | Operating System
 
 ## SHELL
 
@@ -227,5 +227,54 @@ bersangkutan.
 
 ![image](https://github.com/user-attachments/assets/eda89b34-5899-41bc-9151-944b1428e130)
 
+![image](https://github.com/user-attachments/assets/f62c90cf-a626-4259-ad34-6d10adea59d3)
+
+![image](https://github.com/user-attachments/assets/03a42f72-1c39-42ec-817b-b824d4643eb6)
+
 ![image](https://github.com/user-attachments/assets/4b028f0d-cf8f-4920-8b0e-bd3c80453a15)
 
+![image](https://github.com/user-attachments/assets/b94c5da8-98e1-4aca-bf29-3229932875de)
+
+Jelaskan perbedaan kedua utilitas dibawah.
+
+![image](https://github.com/user-attachments/assets/cd56cea5-1743-45f2-a448-b53655c9ee43)
+
+`su` : Berpindah ke pengguna lain tanpa memuat environment login penuh, hanya berpindah ke shell pengguna tersebut.
+
+`su -`: Berpindah ke pengguna lain dan memuat environment login penuh, seolah-olah pengguna tersebut login untuk pertama kalinya.
+
+2. Prompt String (PS)
+   
+a. Edit file .bash_profile, ganti prompt PS1 dengan ‘>’. Instruksi export diperlukan dengan
+parameter nama variable tersebut, agar perubahan variable PS1 dikenal oleh semua shell
+
+![image](https://github.com/user-attachments/assets/f78d20e5-7904-4878-9228-3fc467284f3d)
+
+b. Eskperimen hasil PS1 :
+
+![image](https://github.com/user-attachments/assets/acb7f3f0-a395-44ab-940b-81abb6d29eb2)
+
+3. Logout
+
+Edit file .bash_logout, tampilkan pesan dan tahan selama 5 detik, sebelum eksekusi logout
+
+![image](https://github.com/user-attachments/assets/3966e21c-2037-4ded-9339-5663d0137e8c)
+
+4. Bash-script
+
+Buat 3 buah script p1.sh, p2.sh, p3.sh dengan isi masing-masing :
+
+`p1.sh
+#! /bin/bash
+echo “Program p1”
+ls –l`
+
+`p2.sh
+#! /bin/bash
+echo “Program p2”
+who`
+
+`p3.sh
+#! /bin/bash
+echo “Program p3”
+ps x`

@@ -139,4 +139,71 @@ Memberi izin `executable` dengan `chmod +x ploop.sh` serta menjalankan file
 
 ![image](https://github.com/user-attachments/assets/940a2a59-9903-4162-b867-2f91b5026d1a)
 
+Menjalankan program di background 
 
+Menampilkan jobs yang aktif
+
+![image](https://github.com/user-attachments/assets/f15cb2b7-5d52-4f4f-8b96-f048ea3be5de)
+
+Ubah job menjadi `foreground`
+
+![image](https://github.com/user-attachments/assets/10a2dbd4-a315-4044-8d63-0e06062a34ea)
+
+Mengubah job `foreground` ke `background ` kembali
+
+![image](https://github.com/user-attachments/assets/5e75c5dd-7152-4f53-94b9-decd840d734d)
+
+## e. Manipulasi stack untuk directory
+
+Melihat stack directory dengan `dirs`, hanya akan menampilkan directory home (~)
+
+Membuat 3 dir
+
+![image](https://github.com/user-attachments/assets/9be74588-8667-4455-b970-492d06003041)
+
+Masukkan direktori sales ke dalam stack dengan instruksi pushd. Maka terdapat 2 direktori
+dalam stack yaitu $HOME/sales dan $HOME. Kemudian lihat direktori aktual
+
+Masuk ke directory `Support`
+
+![image](https://github.com/user-attachments/assets/4fd0a1f7-1d0e-4821-885d-e85b9b4c2a02)
+
+Masuk ke directory `Marketing`
+
+![image](https://github.com/user-attachments/assets/8af1227a-828a-462a-ac4c-e1e7bd9946ee)
+
+Bila pushd dilakukan tanpa argumen, maka stack akan mengambil direktori berikutnya
+
+![image](https://github.com/user-attachments/assets/7f07eba8-959d-4c98-ae3d-6bf04852989f)
+
+Untuk membuat direktori sales menjadi direktori paling atas (top stack), maka pushd dapat
+dilakukan dengan argumen +n, dimana n adalah nomor urut direktori tersebut
+
+![image](https://github.com/user-attachments/assets/2375bb4f-1ed1-473d-bac0-6eddac3e31a5)
+
+Untuk menghapus direktori dari stack, gunakan instruksi popd
+
+![image](https://github.com/user-attachments/assets/49171603-f811-4319-9b33-c65e023bd271)
+
+## f. Alias
+
+Alias adalah mekanisme untuk memberi nama alias pada satu atau sekelompok instruksi.
+Untuk melihat alias yang sudah terdaftar pada system :
+
+![image](https://github.com/user-attachments/assets/077c73c6-e388-44b7-9d71-44d76b819eef)
+
+Membuat beberapa alias
+
+![image](https://github.com/user-attachments/assets/916a83bd-6206-44a5-90df-2450fbd23763)
+
+Gunakan instruksi hasil alias
+
+![image](https://github.com/user-attachments/assets/747396cb-337f-4cc7-80ee-2ad4b44f38ac)
+
+Untuk menghapus alias gunakan instruksi unalias
+
+![image](https://github.com/user-attachments/assets/d93f0db5-bd82-451d-83b0-ac892aab5c27)
+
+## TUGAS
+
+1. Eksekusi seluruh profile yang ada

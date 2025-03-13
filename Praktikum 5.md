@@ -17,8 +17,7 @@ Berisi shell script yang berlaku untuk seluruh pengguna Linux.
 
 2. Profil untuk setiap pemakai
 
-Pada home directory, login pertama kali akan memeriksa file .bash_profile. Bila tidak ada, maka
-file .bash_login akan dicari. Bila .bash_login tidak ada, maka dicari file bernama .profile.
+Pada home directory, login pertama kali akan memeriksa file .bash_profile. Bila tidak ada, maka file .bash_login akan dicari. Bila .bash_login tidak ada, maka dicari file bernama .profile.
 
 3. .bashrc
 
@@ -207,3 +206,26 @@ Untuk menghapus alias gunakan instruksi unalias
 ## TUGAS
 
 1. Eksekusi seluruh profile yang ada
+
+Edit file profile /etc/profile dan tampilkan pesan sebagai berikut :
+
+`echo “Profile dari /etc/profile”`
+
+Asumsi nama anda stD02001, maka edit semua profile yang ada yaitu :
+`/home/stD02001/.bash_profile
+/home/. stD02001/.bash_login
+/home/mahasiswa/.profile
+/home/mahasiswa/.bashrc`
+
+Ganti nama /home/mahasiswa dengan nama anda sendiri. Pada setiap
+file tersebut, cantumkan instruksi echo, misalnya pada /home/ mahasiswa/.bash_profile :
+
+`echo “Profile dari .bash_profile”`
+
+Lakukan hal yang sama untuk file lainnya, sesuaikan tampilan dengan nama file yang
+bersangkutan.
+
+![image](https://github.com/user-attachments/assets/eda89b34-5899-41bc-9151-944b1428e130)
+
+![image](https://github.com/user-attachments/assets/4b028f0d-cf8f-4920-8b0e-bd3c80453a15)
+
